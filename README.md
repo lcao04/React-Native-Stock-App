@@ -18,6 +18,10 @@ yarn install
 # start development server
 yarn start
 
+git remote remove origin
+git remote add origin https://[TOKEN]@github.com/[USER]/[REPO]
+git push
+
 # build
 expo build:android
 # or
