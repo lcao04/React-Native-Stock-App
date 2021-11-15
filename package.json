@@ -12,12 +12,12 @@
   "dependencies": {
     "axios": "^0.18.1",
     "date-fns": "^1.29.0",
-    "expo": "^33.0.0",
-    "expo-font": "~5.0.1",
+    "expo": "^34.0.0",
+    "expo-font": "~6.0.1",
     "lodash": "^4.17.15",
     "native-base": "^2.13.1",
     "react": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.2.tar.gz",
     "react-native-platform-touchable": "^1.1.1",
     "react-native-status-bar-height": "^2.1.0",
     "react-native-tab-view": "^2.9.0",
@@ -29,10 +29,10 @@
     "victory-native": "^30.6.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0",
+    "babel-preset-expo": "^6.0.0",
     "react-native-dotenv": "^0.2.0"
   },
   "resolutions": {
-     "graceful-fs": "4.2.4"
+    "graceful-fs": "4.2.4"
   }
 }
