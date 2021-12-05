@@ -6,7 +6,8 @@ export const getStock = (symbol, range) => {
     payload: {
       range: range,
       request: {
-        url: `/stock/${symbol}/batch?types=quote,news,chart&range=${range.query}&chartInterval=${range.interval}`
+        // url: `/stock/${symbol}/batch?types=quote,news,chart&range=${range.query}&chartInterval=${range.interval}`,
+        url: `v6/finance/spark?region=US&lang=en&symbols=${symbol}&range=${range.query}&interval=${range.interval}`
       }
     }
   }
@@ -18,7 +19,7 @@ export const getStockChart = (symbol, range) => {
     payload: {
       range: range,
       request: {
-        url: `/stock/${symbol}/batch?types=quote,news,chart&range=${range.query}&chartInterval=${range.interval}`
+        url: `/v8/finance/chart/${symbol}?range=${range.query}&interval=${range.interval}`
       }
     }
   }

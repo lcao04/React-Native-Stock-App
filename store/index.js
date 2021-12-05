@@ -14,10 +14,13 @@ const persistConfig = {
 }
 
 const client = axios.create({
-  baseURL: 'https://cloud.iexapis.com/v1',
+  baseURL: 'https://yfapi.net',//'https://cloud.iexapis.com/v1',
   responseType: 'json',
   params: {
     token: 'API_KEY'
+  },
+  headers: {
+      'x-api-key': 'pddVKqf8783sg087OM9T89tKLe6gEP1t1pYBqFcE'
   },
 })
 
